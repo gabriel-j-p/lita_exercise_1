@@ -1,0 +1,26 @@
+ // let numeros = [10, 20, 5, 30, 40];   1
+//console.log (numeros.indexOf (5));
+
+//let nomes = ["Ana", "Beatriz", "Carlos"];    2
+//console.log (nomes.includes("Carlos"));
+
+//let frutas = ["maçã", "banana", "laranja"];   3
+//console.log (frutas);
+
+//let numero = [5, 10, 15, 20];             4
+//console.log (numero.indexOf (15));
+
+//let cores = ["azul", "verde", "vermelho"];      5
+//console.log (cores.includes("amarelo"));
+
+//let linguagem = ["JavaScript", "Python", "Java"];    6
+//console.log (linguagem);
+
+//let animais = ["gato", "cachorro", "pássaro", "cachorro"];  7
+//console.log (animais.indexOf ("cachorro"));
+
+//let frutas = ["maçã","banana", "uva"];     8
+//console.log (frutas.includes ("laranja"));
+
+//let frutas = ["banana", "maçã", "laranja"];   10
+//console.log (frutas.includes("morango"));
