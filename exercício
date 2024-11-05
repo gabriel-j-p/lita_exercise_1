@@ -1,26 +1,50 @@
- // let numeros = [10, 20, 5, 30, 40];   1
-//console.log (numeros.indexOf (5));
+let numeros = [10, 20, 5, 30, 40];       //1
+console.log (numeros.indexOf (5));
 
-//let nomes = ["Ana", "Beatriz", "Carlos"];    2
-//console.log (nomes.includes("Carlos"));
+let nomes = ["Ana", "Beatriz", "Carlos"];       // 2
+console.log (nomes.includes("Carlos"));
 
-//let frutas = ["maçã", "banana", "laranja"];   3
-//console.log (frutas);
+let frutas = ["maçã", "banana", "laranja"];        // 3
+console.log (frutas);
 
-//let numero = [5, 10, 15, 20];             4
-//console.log (numero.indexOf (15));
+let numero = [5, 10, 15, 20];                 // 4
+console.log (numero.indexOf (15));
 
-//let cores = ["azul", "verde", "vermelho"];      5
-//console.log (cores.includes("amarelo"));
+let cores = ["azul", "verde", "vermelho"];                 //5
+console.log (cores.includes("amarelo"));
 
-//let linguagem = ["JavaScript", "Python", "Java"];    6
-//console.log (linguagem);
+let linguagem = ["JavaScript", "Python", "Java"];           //6
+console.log (linguagem);
 
-//let animais = ["gato", "cachorro", "pássaro", "cachorro"];  7
-//console.log (animais.indexOf ("cachorro"));
+let animais = ["gato", "cachorro", "pássaro", "cachorro"];  //7
+console.log (animais.indexOf ("cachorro"));
 
-//let frutas = ["maçã","banana", "uva"];     8
-//console.log (frutas.includes ("laranja"));
+let frutas1 = ["maçã","banana", "uva"];                     //8
+console.log (frutas1.includes ("laranja"));
 
-//let frutas = ["banana", "maçã", "laranja"];   10
-//console.log (frutas.includes("morango"));
+let numeross = [1, 2, 3, 4];                               //9
+soma = numeross.reduce((a, b) => a + b, 0);
+
+let frutas2 = ["banana", "maçã", "laranja"];               //10
+console.log (frutas2.includes("morango"));
+
+let linguagem1 = ["JavaScript", "Python", "Java"];          //11
+console.log (linguagem1.indexOf("Python"));
+
+let numeros3 = [2, 4, 6];                                   // 12
+let resultado = numeros3.map(num => num * 2);
+console.log (resultado);
+
+let esportes = ["futebol","basquete", "natação"];             //13
+console.log (esportes.includes("beisebol"));
+
+let frutas3= ["maçã","banana", "laranja"];                   //14
+let quantidadeDeFrutas = frutas3.length;
+console.log (quantidadeDeFrutas);
+
+let cores2 = ["azul", "verde", "vermelho","amarelo"];        //15
+let indiceVermelho = cores2.indexOf ("vermelho");
+console.log (indiceVermelho);
+
+
+
